@@ -1,0 +1,101 @@
+
+/* header styles */
+.header{
+    background-color:#2b304c;
+    height: 50px;
+    position: sticky;
+    top:0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    z-index: 999999;
+}
+
+.header--text{
+    font-size: 1.4rem;
+    color:white;
+}
+/* container styles */
+.main--container{
+    display: flex;
+    justify-items: center;
+    min-height: 100vh;
+    padding:0px 40px 0px 40px;
+    background-color:#333959;
+}
+
+/* user profile styes */
+
+.leftside{
+    min-width: 300px;
+    position: relative;
+}
+.leftside--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.leftside--name--large{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.leftside--position--large{
+    font-size: 1.2rem;
+    padding-bottom: 30px;
+
+}
+
+.media--container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.media--container--item{
+    padding:10px
+}
+
+/* main content styles */
+h3{
+    font-size: 2rem;
+}
+
+h3:first-child:before{
+    color: red;
+}
+
+
+h3::before{
+    content: "";
+    border: 3px solid white;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: -11px;
+    border-radius: 100%;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 1.4rem;
+}
+
+.li--text-dashed{
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
+
+}
+
+.bar{
+    color: white;
+    border-left: 5px solid rgba(255, 255, 255, 0.5);
+    padding-left: 70px;
+    margin-left: 20px;
+    position: relative;
+}
